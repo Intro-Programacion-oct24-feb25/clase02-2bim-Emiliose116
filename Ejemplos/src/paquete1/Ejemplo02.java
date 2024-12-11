@@ -26,16 +26,16 @@ public class Ejemplo02 {
         System.out.println(arreglo1[4]);
         
         // arreglo de tipo double
-        double[] arreglo2 = new double[5];
-        System.out.println(arreglo2[0]);
+        double[] arreglo2 = new double[5]; //los arreglos de tipo double cuando
+        System.out.println(arreglo2[0]); // no hay nada se guaradan como 0.0
         
         // arreglo de tipo String
-        String[] arreglo4 = new String[5];
-        System.out.println(arreglo4[0]);
+        String[] arreglo4 = new String[5]; //los arreglos de tipo cadena cuando
+        System.out.println(arreglo4[0]); // estan vacíos se imprimen "null"
         
         // arreglo de tipo boleano
-        boolean[] arreglo5 = new boolean[5];
-        System.out.println(arreglo5[0]);
+        boolean[] arreglo5 = new boolean[5];//los arreglos de tipo boolean 
+        System.out.println(arreglo5[0]); //cuando estan vacion son "false"-
     }
 
 }
